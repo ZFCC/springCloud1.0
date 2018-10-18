@@ -1,7 +1,11 @@
 package com.sn.springCloud10;
 
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
+    private static final long serialVersionUID = -836692903456412130L;
+
     public String id;
 
     public String userName;
